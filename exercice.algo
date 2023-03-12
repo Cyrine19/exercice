@@ -1,0 +1,28 @@
+VAR
+Str :STRING[] ;
+I,j,k ,word,vowel,char:integer;
+Word=0
+Vowel=0
+Char=0
+BEGIN
+Read str;
+While srt.length:=’.’ Do 
+For I FROM 0 to str.length STEP do 
+Char:=i+1
+End for 
+For j FROM 0 to str.length STEP do
+If str[j]:=’aeiouAEIOU’;
+Vowel:=j+1
+End-if
+End-FOR 
+For k FROM 0 to str.length STEP do 
+If str[k]==’ ’;
+Word:=k+1;
+End-if
+End-for 
+End (while)
+Write(word)
+Write (vowel)
+Write(char)
+
+End

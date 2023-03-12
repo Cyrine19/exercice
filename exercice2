@@ -1,0 +1,25 @@
+Var 
+
+Set1:array[]
+Set2:array[]
+Elem:array[]
+Sum,i,j,k:integer;
+
+BEGIN
+Sum:=0;
+For i:=1 to length(set1) do 
+K:=1
+While (k<=length(set2))and (set1[i]<>set2[k])do 
+K:=k+1
+If (k>length(set2))
+K:=0
+While (k<length(elem))and (set1[i]<>elem[k])do
+End-if 
+K:=k+1;
+If(k=length(elem))
+Setlength (elem,length(elem+1);
+Elem [length(elem)-1]:=set2[i];
+Sum:=Sum+set2[i];
+End-if 
+
+End 
